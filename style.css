@@ -38,3 +38,24 @@ input[type="password"] {
     font-size: 3rem;
 }
 
+/* seletor por descendente */
+
+.login-form input{
+    border: 1px solid palevioletred;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+/* seletor filhos diretos */
+
+.login-form > input {
+    font-size: 1rem;
+    color: plum;
+}
+
+
+/* pseudo - classes */
+
+.cadastro-form div:nth-of-type(2){
+    background: purple;
+}
